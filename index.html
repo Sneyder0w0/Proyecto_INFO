@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <header class="scoreText">Score:</header>
+        <header class="score" id="score">0</header>
+    </div>
+
+    <h2>Indicaciones:
+        <h3>
+            Escribe tus respuestas y verifica si tu respuesta es correcta o no dandole al boton "enviar".
+        </h3>
+        <h3>
+            Si es correcta suma 2 puntos, caso contrario, no sumará nada a tu score.
+        </h3>
+    </h2>
+    <div>
+        <h1>¿Cual es la capital de españa?</h1>
+        <input id="pre1" placeholder="respuesta" type="text">
+        <input id="btn1" onclick="enviar1()" type="button" value="Enviar">
+    </div>
+
+    <div>
+        <h1>¿Cual es el primer nombre de Teacher Sagastume?</h1>
+        <input id="pre2" placeholder="respuesta" type="text">
+        <input id="btn2"  onclick="enviar2()" type="button" value="Enviar">
+    </div>
+
+    <div>
+        <h1>¿Cuál es el país con más islas en el mundo?</h1>
+        <input id="pre3" placeholder="respuesta" type="text">
+        <input id="btn3" onclick="enviar3()" type="button" value="Enviar">
+    </div>
+
+    <div>
+        <h1>¿Quién pintó "La última cena"?</h1>
+        <input id="pre4" placeholder="respuesta" type="text">
+        <input id="btn4" onclick="enviar4()" type="button" value="Enviar">
+    </div>
+
+    <div>
+        <h1>¿En qué país se encuentra el lago más profundo del mundo?</h1>
+        <input id="pre5" placeholder="respuesta" type="text">
+        <input id="btn5" onclick="enviar5()" type="button" value="Enviar">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.scoreText{
+    font-size: 100px;
+}
+
+.header{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+
+.score{
+    font-size: 70px;
+}
+
+.header{
+    background-color:  rgba(165, 220, 224, 0.801);
+}
+div{
+     background-color:  rgba(221, 237, 238, 0.801);
+}
+
+body{
+    background-color:  rgba(221, 237, 238, 0.801);
+}
+.bt1{
+    background-color: rgb(175, 187, 211);
+}
+.bt2{
+    background-color: rgb(175, 187, 211);
+}
+.bt3{
+    background-color: rgb(175, 187, 211);
+}
+.bt4{
+    background-color: rgb(175, 187, 211);
+}
+.bt5{
+    background-color: rgb(175, 187, 211);
+}
